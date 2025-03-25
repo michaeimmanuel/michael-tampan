@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5e1c8; /* Cokelat muda */
+}
+
+header {
+    background-color: #d2a679; /* Cokelat sedang */
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #e0c3a3; /* Cokelat lebih terang */
+    padding: 10px;
+}
+
+nav a {
+    color: #5d4037;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+}
+
+.product {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    background: #fff8e1; /* Cokelat sangat terang */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.add-to-cart {
+    background-color: #a0522d; /* Cokelat muda */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #8b4513; /* Cokelat lebih gelap */
+}
+
+footer {
+    background-color: #d2a679;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
